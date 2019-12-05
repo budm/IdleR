@@ -6,7 +6,7 @@ IdleR is built around simplicity, and usabilty. Unlike other idle mining softwar
 IdleR is completely free and always will be, plus it doesn't take away any of your hashrate (no fees!). 
 
 How to use:
-Simply place your IdleR.exe in the same folder as your copy of XMRig, execute it, after 60 seconds of idling your miner will be running in the background. Its that simple!
+Simply place your IdleR.exe in the same folder as your copy of XMRig, execute it, after 30 seconds of idling your miner will be running in the background. Its that simple!
 
 By default IdleR waits for 30 seconds of idle time to launch, but you can easily change this in the code. When you come back to use your computer it will automatically stop mining so you don't suffer any performance issues, and after that if you leave it idle for 30 seconds again, it goes back to mining.
 
