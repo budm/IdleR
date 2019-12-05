@@ -9,7 +9,7 @@
 ;;;;;;;;;;;;;;;;;;;;;
 ;; IdleR Config     ;
 ;;;;;;;;;;;;;;;;;;;;;
-$IDLE_SEC = 60  ;Idle Time in Seconds
+$IDLE_SEC = 30  ;Idle Time in Seconds
 $IDLE_MNR = "xmrig.exe"  ;Name of Program to run
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -56,7 +56,7 @@ EndFunc
 
  Func StartMiner()
 	If Not $MINER_STARTED Then
-	  $MINER_PID = ShellExecute( @ScriptDir & "\" & $IDLE_MNR, "" , "" , "" , @SW_HIDE )
+	  $MINER_PID = ShellExecute( @ScriptDir & "\" & $IDLE_MNR, "" , "" , "" , @SW_MINIMIZE )
 	  $MINER_STARTED = True
 	EndIf
  EndFunc
